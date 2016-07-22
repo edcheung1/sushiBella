@@ -1,0 +1,325 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getAuthenticated"
+			],
+			[
+				"findOne",
+				"findOneAndUpdate"
+			],
+			[
+				"api",
+				"apiUrl"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"last_filter": "ss bab",
+		"selected_items":
+		[
+			[
+				"ss bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"ss css",
+				"Set Syntax: CSS"
+			],
+			[
+				"ss babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"ss java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssbab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"ssj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssjava",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"",
+				"Snippet: setTimeout function"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Ed/Documents/FCC/sushiBella"
+	],
+	"file_history":
+	[
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/actions/PollActions.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/routes/index.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/index.html",
+		"/C/Users/Ed/Documents/FCC/voterRedux/package.json",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/models/poll.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/components/Poll.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/components/Arc.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/components/LabeledArc.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/webpack.config.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/stores/AuthStore.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/components/PieSlice.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/pages/NewPoll.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/server.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/pages/MyPolls.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/pages/Layout.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/components/Footer.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/css/main.css",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/client.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/pages/Login.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/pages/Polls.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/components/Nav.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/models/user.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/.env",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/actions/AuthActions.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/utils/jwtHelper.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/utils/AuthService.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/stores/PollStore.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/Procfile",
+		"/C/Users/Ed/Documents/FCC/voterRedux/.gitignore",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/server.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/dispatcher.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/pages/Settings.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/components/Header/Title.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/components/Header.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/src/js/components/Layout.js",
+		"/C/Users/Ed/AppData/Local/Temp/Rar$DRa0.152/bootstrap-without-jquery-master/bootstrap3/bootstrap-without-jquery.min.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/index.html",
+		"/C/Users/Ed/Documents/FCC/voterRedux/js/client.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/js/scripts.min.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/scripts.js",
+		"/C/Users/Ed/Documents/FCC/voterRedux/module1.js",
+		"/C/Users/Ed/Documents/FCC/voter/app/common/ajax-functions.js",
+		"/C/Users/Ed/Documents/FCC/voter/app/models/users.js",
+		"/C/Users/Ed/Documents/FCC/voter/app/routes/index.js",
+		"/C/Users/Ed/Documents/FCC/voter/app/controllers/clickHandler.server.js",
+		"/C/Users/Ed/Documents/FCC/voter/server.js",
+		"/C/Users/Ed/Documents/FCC/voter/public/app.jsx",
+		"/C/Users/Ed/Documents/FCC/voter/app/config/passport.js",
+		"/C/Users/Ed/Documents/FCC/voter/public/index.html",
+		"/C/Users/Ed/Documents/FCC/voter/public/css/main.css",
+		"/C/Users/Ed/Documents/FCC/voter/.gitignore",
+		"/C/Users/Ed/Documents/FCC/voter/app/controllers/clickController.client.js",
+		"/C/Users/Ed/Documents/FCC/voter/app/controllers/userController.client.js",
+		"/C/Users/Ed/Documents/FCC/voter/package.json",
+		"/C/Users/Ed/Documents/FCC/voter/public/profile.html",
+		"/C/Users/Ed/Documents/FCC/voter/public/login.html",
+		"/C/Users/Ed/Documents/FCC/voter/app/models/clicks.js",
+		"/C/Users/Ed/Documents/FCC/voter/app/controllers/userController.clinet.js",
+		"/C/Users/Ed/Documents/FCC/voter/app/config/auth.js",
+		"/C/Users/Ed/Documents/FCC/voter/.env",
+		"/C/Users/Ed/Documents/FCC/voter/node_modules/passport-github/node_modules/passport-oauth2/node_modules/oauth/examples/github-example.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\Ed\\Documents\\FCC\\voterRedux\\src",
+			"C:\\Users\\Ed\\Documents\\FCC\\voterRedux",
+			"C:\\Users\\Ed\\Documents\\FCC\\voter\\app",
+			"C:\\Users\\Ed\\Documents\\FCC\\voter\\",
+			"C:\\Users\\Ed\\Documents\\FCC\\voter\\app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"freegeoip",
+			"scripts",
+			"freegeoip",
+			"}\n",
+			"hash",
+			"map",
+			"console",
+			"map",
+			"workss",
+			"scripts",
+			"passport",
+			"passport.js",
+			"query",
+			"div",
+			"auth/github"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "sushiBella.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"passport.js",
+				"app\\config\\passport.js"
+			],
+			[
+				"auth/github",
+				"node_modules\\passport-github\\node_modules\\passport-oauth2\\node_modules\\oauth\\examples\\github-example.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Ed\\Documents\\FCC\\voter1.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

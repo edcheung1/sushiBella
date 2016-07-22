@@ -1,0 +1,33 @@
+html,
+body {
+	height: 100%;
+	background: orange;
+}
+
+#app {
+	height: 100%;
+}
+
+#outer-container {
+	height: 100%;
+}
+
+#page-wrap {
+	height: 100%;
+	background-color: orange;
+	padding: 8em 0 8em 8em;
+}
+
+.sushi-icon img {
+	width: 50px;
+	height: 50px;
+}
+
+.sushi-menu-item {
+	border: 2px solid #444;
+	padding: 1em;
+}
+
+.ingredient-icon {
+	display: inline-block;
+}

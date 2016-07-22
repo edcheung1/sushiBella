@@ -1,0 +1,25 @@
+{
+	"menuItems": [{
+			"name": "California Roll",
+			"ingredients": ["crab", "avocado", "cucumber"],
+			"isRaw": false
+		}, {
+			"name": "Salmon and Avocado Roll",
+			"ingredients": ["salmon", "avocado"],
+			"isRaw": true
+		}, {
+			"name": "Salmon and Cucumber Roll",
+			"ingredients": ["salmon", "cucumber"],
+			"isRaw": true
+		}, {
+			"name": "Tuna and Avocado Roll",
+			"ingredients": ["tuna", "avocado"],
+			"isRaw": true
+		}, {
+			"name": "Tuna and Cucumber Roll",
+			"ingredients": ["tuna", "cucumber"],
+			"isRaw": true
+		}
+
+	]
+}
