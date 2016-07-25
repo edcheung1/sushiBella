@@ -1,25 +1,308 @@
 {
-	"menuItems": [{
+	"nigiriSushi": [
+		{
+			"name": "Maguro 鮪 (Tuna)",
+			"ingredients": ["tuna"],
+			"isRaw": true,
+			"price": 5
+		}, {
+			"name": "Shiro Maguro 白鮪 (Albacore Tuna)",
+			"ingredients": ["tuna"],
+			"isRaw": true,
+			"price": 4.5
+		}, {
+			"name": "Sake 鮭 (Salmon)",
+			"ingredients": ["salmon"],
+			"isRaw": true,
+			"price": 4.5
+		}, {
+			"name": "Smoked Salmon スモーク・サーモン",
+			"ingredients": ["salmon"],
+			"isRaw": true,
+			"price": 4.5
+		}, {
+			"name": "Hamachi はまち (Yellowtail)",
+			"ingredients": ["yellowtail"],
+			"isRaw": true,
+			"price": 4.5
+		}, {
+			"name": "Unagi 鰻 (Eel)",
+			"ingredients": ["eel"],
+			"isRaw": true,
+			"price": 5
+		}, {
+			"name": "Ebi 海老 (Shrimp)",
+			"ingredients": ["shrimp"],
+			"isRaw": true,
+			"price": 4
+		}, {
+			"name": "Ama-ebi 甘海老 (Sweet Shrimp)",
+			"ingredients": ["shrimp"],
+			"isRaw": true,
+			"price": 6
+		}, {
+			"name": "Tai 鯛 (Red Snapper)",
+			"ingredients": ["snapper"],
+			"isRaw": true,
+			"price": 4.5
+		}, {
+			"name": "Kani 蟹 (Crab Stick)",
+			"ingredients": ["crab"],
+			"isRaw": true,
+			"price": 4
+		}, {
+			"name": "Masago まさご (Smelt Roe)",
+			"ingredients": ["smelt roe"],
+			"isRaw": true,
+			"price": 4.5
+		}, {
+			"name": "Saba 鯖 (Mackerel)",
+			"ingredients": ["mackerel"],
+			"isRaw": true,
+			"price": 4.5
+		}, {
+			"name": "Ikura イクラ (Salmon Roe)",
+			"ingredients": ["salmon roe"],
+			"isRaw": true,
+			"price": 6
+		}, {
+			"name": "Ika いか (Squid)",
+			"ingredients": ["squid"],
+			"isRaw": true,
+			"price": 4.5
+		}, {
+			"name": "Hotate 帆立 (Scallop)",
+			"ingredients": ["scallop"],
+			"isRaw": true,
+			"price": 5
+		}, {
+			"name": "Tamago 卵 (Egg)",
+			"ingredients": ["egg"],
+			"isRaw": true,
+			"price": 3
+		}, {
+			"name": "Inari いなり (Sweet Tofu Pocket)",
+			"ingredients": ["tofu"],
+			"isRaw": true,
+			"price": 3
+		}
+	],
+	"normalRolls": [
+		{
+			"name": "Avocado Roll",
+			"ingredients": ["avocado"],
+			"isRaw": false,
+			"price": 4
+		}, {
+			"name": "Cucumber Roll",
+			"ingredients": ["cucumber"],
+			"isRaw": false,
+			"price": 4
+		}, {
+			"name": "Vegetarian Roll",
+			"ingredients": ["avocado", "cucumber", "carrot"],
+			"isRaw": false,
+			"price": 5
+		}, {
 			"name": "California Roll",
 			"ingredients": ["crab", "avocado", "cucumber"],
-			"isRaw": false
+			"isRaw": false,
+			"price": 5
+		}, {
+			"name": "California Cream Cheese Roll",
+			"ingredients": ["crab", "avocado", "cucumber", "cream cheese"],
+			"isRaw": false,
+			"price": 5.5
+		}, {
+			"name": "Spicy California Roll",
+			"ingredients": ["crab", "avocado", "cucumber"],
+			"isRaw": false,
+			"price": 5
+		}, {
+			"name": "Shrimp California Roll",
+			"ingredients": ["shrimp", "avocado", "cucumber"],
+			"isRaw": false,
+			"price": 5
+		}, {
+			"name": "Shrimp Tempura Roll",
+			"ingredients": ["shrimp tempura", "avocado", "cucumber"],
+			"isRaw": false,
+			"price": 6
+		}, {
+			"name": "Eel and Avocado Roll",
+			"ingredients": ["eel", "avocado"],
+			"isRaw": true,
+			"price": 6
+		}, {
+			"name": "Eel and Cucumber Roll",
+			"ingredients": ["eel", "cucumber"],
+			"isRaw": true,
+			"price": 6
+		}, {
+			"name": "Salmon Roll",
+			"ingredients": ["salmon"],
+			"isRaw": true,
+			"price": 5
 		}, {
 			"name": "Salmon and Avocado Roll",
 			"ingredients": ["salmon", "avocado"],
-			"isRaw": true
+			"isRaw": true,
+			"price": 5.5
 		}, {
 			"name": "Salmon and Cucumber Roll",
 			"ingredients": ["salmon", "cucumber"],
-			"isRaw": true
+			"isRaw": true,
+			"price": 5.5
+		}, {
+			"name": "Spicy Salmon and Avocado Roll",
+			"ingredients": ["salmon", "avocado"],
+			"isRaw": true,
+			"price": 5.5
+		}, {
+			"name": "Salmon Tempura and Avocado Roll",
+			"ingredients": ["salmon tempura"],
+			"isRaw": true,
+			"price": 7
+		}, {
+			"name": "Tuna Roll",
+			"ingredients": ["tuna"],
+			"isRaw": true,
+			"price": 5
+		}, {
+			"name": "Spicy Tuna Roll",
+			"ingredients": ["tuna"],
+			"isRaw": true,
+			"price": 6
+		}, {
+			"name": "Spicy Tuna and Avocado Roll",
+			"ingredients": ["tuna", "avocado"],
+			"isRaw": true,
+			"price": 6
 		}, {
 			"name": "Tuna and Avocado Roll",
 			"ingredients": ["tuna", "avocado"],
-			"isRaw": true
+			"isRaw": true,
+			"price": 6
 		}, {
 			"name": "Tuna and Cucumber Roll",
 			"ingredients": ["tuna", "cucumber"],
-			"isRaw": true
+			"isRaw": true,
+			"price": 6
+		}, {
+			"name": "Spicy Albacore and Avocado Roll",
+			"ingredients": ["tuna", "avocado"],
+			"isRaw": true,
+			"price": 6
+		}, {
+			"name": "Yellowtail and Avocado Roll",
+			"ingredients": ["yellowtail", "avocado"],
+			"isRaw": true,
+			"price": 5.5
+		}, {
+			"name": "Yellowtail and Cucumber Roll",
+			"ingredients": ["yellowtail", "cucumber"],
+			"isRaw": true,
+			"price": 5.5
+		}, {
+			"name": "Spicy Scallop and Avocado Roll",
+			"ingredients": ["scallop", "avocado"],
+			"isRaw": true,
+			"price": 7
+		}, {
+			"name": "Real Crab and Avocado Roll",
+			"ingredients": ["crab", "avocado"],
+			"isRaw": true,
+			"price": 7
 		}
-
+	],
+	"houseRolls" : [
+		{
+			"name": "Philadelphia Roll",
+			"ingredients": ["smoked salmon", "cucumber", "cream cheese"],
+			"isRaw": true,
+			"price": 7
+		}, {
+			"name": "Sunrise Roll",
+			"ingredients": ["tuna", "avocado", "cream cheese"],
+			"isRaw": true,
+			"price": 7
+		}, {
+			"name": "Sunset Roll",
+			"ingredients": ["salmon", "avocado", "cream cheese"],
+			"isRaw": true,
+			"price": 7
+		}, {
+			"name": "Samurai Roll",
+			"ingredients": ["salmon tempura", "eel", "avocado"],
+			"isRaw": true,
+			"price": 8
+		}, {
+			"name": "Spider Roll",
+			"ingredients": ["soft shell crab", "avocado"],
+			"isRaw": true,
+			"price": 9
+		}, {
+			"name": "Boston Roll",
+			"ingredients": ["tuna", "crab", "avocado", "smelt roe"],
+			"isRaw": true,
+			"price": 8
+		}, {
+			"name": "Sea-Tac Roll",
+			"ingredients": ["tuna", "salmon", "snapper", "avocado", "smelt roe"],
+			"isRaw": true,
+			"price": 9
+		}, {
+			"name": "Crunchy Roll",
+			"ingredients": ["shrimp tempura", "avocado", "smelt roe", "tempura crumbs"],
+			"isRaw": true,
+			"price": 9
+		}, {
+			"name": "Futo Maki",
+			"ingredients": ["crab", "egg", "smelt roe", "pickled radish", "inari"],
+			"isRaw": true,
+			"price": 10
+		}, {
+			"name": "Dragon Roll",
+			"ingredients": ["shrimp tempura", "eel", "avocado", "cucumber"],
+			"onTop": ["avocado"],
+			"isRaw": true,
+			"price": 12
+		}, {
+			"name": "Red Dragon Roll",
+			"ingredients": ["crab", "avocado", "cucumber"],
+			"onTop": ["tuna"],
+			"isRaw": true,
+			"price": 12
+		}, {
+			"name": "Black Dragon Roll",
+			"ingredients": ["crab", "avocado", "cucumber"],
+			"onTop": ["eel", "avocado"],
+			"isRaw": true,
+			"price": 12
+		}, {
+			"name": "Rainbow Roll",
+			"ingredients": ["crab", "avocado", "cucumber"],
+			"onTop": ["tuna", "salmon", "snapper", "avocado"],
+			"isRaw": true,
+			"price": 12
+		}, {
+			"name": "Alaska Roll",
+			"ingredients": ["crab", "avocado", "cucumber"],
+			"onTop": ["smoked salmon"],
+			"isRaw": true,
+			"price": 12
+		}, {
+			"name": "Phoenix Roll",
+			"ingredients": ["soft shell crab", "eel"],
+			"onTop": ["avocado"],
+			"isRaw": true,
+			"price": 12
+		}, {
+			"name": "Seattle Roll",
+			"ingredients": ["shrimp tempura"],
+			"onTop": ["spicy tuna"],
+			"isRaw": true,
+			"price": 12
+		}
 	]
 }

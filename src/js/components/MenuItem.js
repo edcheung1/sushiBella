@@ -1,5 +1,5 @@
 import React from "react"
-import Collapse from "react-collapse"
+import { Collapse, Row, Col } from "react-bootstrap"
 
 export default class MenuItem extends React.Component {
 	constructor() {
@@ -20,17 +20,24 @@ export default class MenuItem extends React.Component {
 		let ingredients = this.props.ingredients.map((ingredient, i) => {
 			return (
 				<div key={this.props.name + i} class="ingredient-icon">
-					<img src={"../../icons/" + ingredient + ".png"} />
+					{ingredient}
 				</div>
 			)
 		})
 
-
 		return (
-			<div class="container sushi-menu-item" onClick={this.showIngredients}>
-				{this.props.name}
-				<Collapse isOpened={this.state.showIngredients}>
-					{ingredients}
+			<div class="sushi-menu-item" onClick={this.showIngredients}>
+				<div class="sushi-menu-item-info">
+					<div style={{"float": "left"}}>{this.props.name}</div>
+					<div style={{"float": "right"}}>{this.props.price}</div>
+				</div>
+				<Collapse in={this.state.showIngredients} >
+					<div>
+						<img src="../../icons/page_img_sushi_01.jpg" />
+						<div class="ingredients-panel">
+							{ingredients}
+						</div>
+					</div>
 				</Collapse>
 			</div>
 		)

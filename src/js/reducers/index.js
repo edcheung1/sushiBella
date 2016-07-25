@@ -1,9 +1,7 @@
 import { combineReducers } from "redux"
 
-import tweets from "./tweetsReducer"
-import users from "./userReducer"
+import filters from "./filtersReducer"
 
 export default combineReducers({
-	tweets,
-	users
+	filters
 })

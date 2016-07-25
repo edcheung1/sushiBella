@@ -1,5 +1,7 @@
 import React from "react"
 import { IndexLink, Link } from "react-router"
+import { connect } from "react-redux"
+
 import BurgerMenu from "react-burger-menu"
 import Radium from 'radium'
 
@@ -48,7 +50,9 @@ export default class Layout extends React.Component {
 				</Menu>
 
 				<main id="page-wrap">
-					{this.props.children}
+					<div class="container">
+						{this.props.children}
+					</div>
 				</main>
 			</div>
 			
