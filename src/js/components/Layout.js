@@ -46,7 +46,8 @@ export default class Layout extends React.Component {
 			<div id="outer-container">
 				<Menu styles={styles} width={200} pageWrapId={"page-wrap"} outerContainerId={"outer-container"}>
 					<RadiumLink id="home" class="menu-item" to="/">Home</RadiumLink>
-        			<RadiumLink id="about" class="menu-item" to="/menu">Menu</RadiumLink>
+        			<RadiumLink id="menu" class="menu-item" to="/menu">Menu</RadiumLink>
+        			<RadiumLink id="suggest" class="menu-item" to="/suggest">Suggest</RadiumLink>
 				</Menu>
 
 				<main id="page-wrap">

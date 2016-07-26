@@ -1,15 +1,9 @@
 import React from "react"
-import { connect } from "react-redux"
 
 import { normalRolls, houseRolls, nigiriSushi } from "../../data/menuItems"
 import MenuSection from "../components/MenuSection"
 import MenuFilters from "../components/MenuFilters"
 
-@connect((store) => {
-	return {
-		filter: store.filters.filters
-	};
-})
 export default class Menu extends React.Component {
 	constructor() {
 		super();
@@ -39,15 +33,15 @@ export default class Menu extends React.Component {
 				<h1>Menu</h1>
 				<div class="row">
 					<h3>Ingredients</h3>
-					<MenuFilters />
+					<MenuFilters type="filter"/>
 				</div>
 				<div class="row" style={{"paddingRight": "4em"}}>
 					<h3>Nigiri Sushi</h3>
-						<MenuSection items={nigiriSushi} filter={this.props.filter} windowWidth={this.state.windowWidth}/>
+						<MenuSection items={nigiriSushi} windowWidth={this.state.windowWidth}/>
 					<h3>Sushi Rolls</h3>
-						<MenuSection items={normalRolls} filter={this.props.filter} windowWidth={this.state.windowWidth}/>
+						<MenuSection items={normalRolls} windowWidth={this.state.windowWidth}/>
 					<h3>House Rolls</h3>
-						<MenuSection items={houseRolls} filter={this.props.filter} windowWidth={this.state.windowWidth}/>
+						<MenuSection items={houseRolls} windowWidth={this.state.windowWidth}/>
 				</div>
 			</div>
 		);

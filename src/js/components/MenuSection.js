@@ -1,15 +1,23 @@
 import React from "react"
 import { Row, Col } from "react-bootstrap"
+import { connect } from "react-redux"
 
 import MenuItem from "./MenuItem"
 
+@connect((store) => {
+	return {
+		filter: store.filters.filters,
+		isRiceInside: store.filters.isRiceInside
+	};
+})
 export default class MenuSection extends React.Component {
 	render() {
-		let filter = this.props.filter;
+		let filter = this.props.filter ? this.props.filter : [];
+		let isRiceInside = this.props.isRiceInside;
 
 		let filteredItems = this.props.items.filter((item) => {
 			for(var i=0; i<filter.length; i++) {
-				if(item.name.toLowerCase().indexOf(filter[i]) < 0 && item.ingredients.indexOf(filter[i]) < 0) {
+				if(item.name.toLowerCase().indexOf(filter[i]) < 0 && item.ingredients.indexOf(filter[i]) < 0 && item.isRiceInside !== isRiceInside) {
 					return false;
 				}
 			}

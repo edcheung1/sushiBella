@@ -1,6 +1,7 @@
 import React from "react"
 
 import { setFilter } from "../actions/filterActions.js"
+import { setSuggest } from "../actions/suggestActions.js"
 import store from "../store"
 
 export default class FilterButton extends React.Component {
@@ -14,7 +15,14 @@ export default class FilterButton extends React.Component {
 	}
 
 	toggleFilter(event) {
-		store.dispatch(setFilter(this.props.filter))
+		let isRiceInside = this.props.rice == "inside" ? true : false;
+
+		if(this.props.type == "filter") {
+			store.dispatch(setFilter(this.props.ingredient, isRiceInside));
+		} else if(this.props.type == "suggest") {
+			store.dispatch(setSuggest(this.props.ingredient, isRiceInside))
+		}
+		
 		this.setState({
 			active: !this.state.active
 		})
@@ -24,7 +32,7 @@ export default class FilterButton extends React.Component {
 		let active = this.state.active ? "active" : "";
 
 		return(
-			<button class={"btn " + this.props.btnStyle +  " " + active} onClick={this.toggleFilter}>{this.props.filter}</button>
+			<button class={"btn " + this.props.btnStyle +  " " + active} onClick={this.toggleFilter}>{this.props.ingredient || this.props.rice}</button>
 		);
 	}
 }

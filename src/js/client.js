@@ -8,6 +8,7 @@ import store from "./store"
 import Layout from "./components/Layout"
 import Home from "./pages/Home"
 import Menu from "./pages/Menu"
+import Suggest from "./pages/Suggest"
 
 const app = document.getElementById('app');
 
@@ -16,6 +17,7 @@ ReactDOM.render(<Provider store={store}>
 		<Route path="/" component={Layout}>
 			<IndexRoute component={Home}></IndexRoute>
 			<Route path="menu" component={Menu}></Route>
+			<Route path="suggest" component={Suggest}></Route>
 		</Route>
 	</Router>
 </Provider>, app);

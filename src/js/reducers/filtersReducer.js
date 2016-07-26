@@ -12,7 +12,7 @@ export default function reducer(state={
 				newFilters.push(action.payload.filter);
 			}
 			// return newState;
-			return {...state, filters: newFilters}
+			return {...state, filters: newFilters, isRiceInside: action.payload.isRiceInside}
 		}
 	}
 
