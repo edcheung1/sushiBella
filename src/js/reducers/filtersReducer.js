@@ -1,5 +1,6 @@
 export default function reducer(state={
-	filters: []
+	filters: [],
+	isRiceInside: null
 }, action) {
 	switch(action.type) {
 		case "SET_FILTER": {

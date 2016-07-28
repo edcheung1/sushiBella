@@ -29,7 +29,7 @@ export default class Menu extends React.Component {
 
 	render() {
 		return (
-			<div class="container">
+			<div class="container" style={{"paddingBottom": "4em"}}>
 				<h1>Menu</h1>
 				<div class="row">
 					<h3>Ingredients</h3>

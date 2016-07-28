@@ -33,7 +33,10 @@ export default class MenuItem extends React.Component {
 				</div>
 				<Collapse in={this.state.showIngredients} >
 					<div>
-						<img src="../../icons/page_img_sushi_01.jpg" />
+						{ this.props.simpleName ? 
+							<img src={"../../icons/" + this.props.simpleName + ".jpg"} /> :
+							<img src="../../icons/page_img_sushi_01.jpg" />
+						}
 						<div class="ingredients-panel">
 							{ingredients}
 						</div>

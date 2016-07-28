@@ -2,102 +2,119 @@
 	"nigiriSushi": [
 		{
 			"name": "Maguro 鮪 (Tuna)",
+			"simpleName": "tuna",
 			"ingredients": ["tuna"],
 			"isRaw": true,
 			"isRiceInside": null,
 			"price": 5
 		}, {
 			"name": "Shiro Maguro 白鮪 (Albacore Tuna)",
+			"simpleName": "albacore",
 			"ingredients": ["tuna"],
 			"isRaw": true,
 			"isRiceInside": null,
 			"price": 4.5
 		}, {
 			"name": "Sake 鮭 (Salmon)",
+			"simpleName": "salmon",
 			"ingredients": ["salmon"],
 			"isRaw": true,
 			"isRiceInside": null,
 			"price": 4.5
 		}, {
 			"name": "Smoked Salmon スモーク・サーモン",
+			"simpleName": "smokedSalmon",
 			"ingredients": ["salmon"],
 			"isRaw": true,
 			"isRiceInside": null,
 			"price": 4.5
 		}, {
 			"name": "Hamachi はまち (Yellowtail)",
+			"simpleName": "yellowtail",
 			"ingredients": ["yellowtail"],
 			"isRaw": true,
 			"isRiceInside": null,
 			"price": 4.5
 		}, {
 			"name": "Unagi 鰻 (Eel)",
+			"simpleName": "eel",
 			"ingredients": ["eel"],
 			"isRaw": true,
 			"isRiceInside": null,
 			"price": 5
 		}, {
 			"name": "Ebi 海老 (Shrimp)",
+			"simpleName": "shrimp",
 			"ingredients": ["shrimp"],
 			"isRaw": true,
 			"isRiceInside": null,
 			"price": 4
 		}, {
 			"name": "Ama-ebi 甘海老 (Sweet Shrimp)",
+			"simpleName": "sweetShrimp",
 			"ingredients": ["shrimp"],
 			"isRaw": true,
 			"isRiceInside": null,
 			"price": 6
 		}, {
 			"name": "Tai 鯛 (Red Snapper)",
+			"simpleName": "snapper",
 			"ingredients": ["snapper"],
 			"isRaw": true,
 			"isRiceInside": null,
 			"price": 4.5
 		}, {
 			"name": "Kani 蟹 (Crab Stick)",
+			"simpleName": "crab",
 			"ingredients": ["crab"],
 			"isRaw": true,
 			"isRiceInside": null,
 			"price": 4
 		}, {
 			"name": "Masago まさご (Smelt Roe)",
+			"simpleName": "smeltRoe",
 			"ingredients": ["smelt roe"],
 			"isRaw": true,
 			"isRiceInside": null,
 			"price": 4.5
 		}, {
 			"name": "Saba 鯖 (Mackerel)",
+			"simpleName": "mackerel",
 			"ingredients": ["mackerel"],
 			"isRaw": true,
 			"isRiceInside": null,
 			"price": 4.5
 		}, {
 			"name": "Ikura イクラ (Salmon Roe)",
+			"simpleName": "salmonRoe",
 			"ingredients": ["salmon roe"],
 			"isRaw": true,
 			"isRiceInside": null,
 			"price": 6
 		}, {
 			"name": "Ika いか (Squid)",
+			"simpleName": "squid",
 			"ingredients": ["squid"],
 			"isRaw": true,
 			"isRiceInside": null,
 			"price": 4.5
 		}, {
 			"name": "Hotate 帆立 (Scallop)",
+			"simpleName": "scallop",
 			"ingredients": ["scallop"],
 			"isRaw": true,
 			"isRiceInside": null,
 			"price": 5
 		}, {
 			"name": "Tamago 卵 (Egg)",
+			"simpleName": "egg",
 			"ingredients": ["egg"],
 			"isRaw": true,
 			"isRiceInside": null,
 			"price": 3
 		}, {
 			"name": "Inari いなり (Sweet Tofu Pocket)",
+			"simpleName": "inari",
 			"ingredients": ["tofu"],
 			"isRaw": true,
 			"isRiceInside": null,
