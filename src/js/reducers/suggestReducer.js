@@ -1,21 +1,28 @@
 export default function reducer(state={
-	suggest: []
+	suggest: [],
+	isRiceInside: null
 }, action) {
 	switch(action.type) {
-		case "SET_SUGGEST": {
-			let index = state.suggest.indexOf(action.payload.suggest);
-			let newSuggest = state.suggest.slice();
+		case "SET_INGREDIENT_SUGGEST": {
+			let index = state.suggest.indexOf(action.payload.filter);
+			let newFilters = state.suggest.slice();
 
 			if(index >= 0) {
-				newSuggest.splice(index,1);
+				newFilters.splice(index,1);
 			} else {
-				newSuggest.push(action.payload.suggest);
+				newFilters.push(action.payload.filter);
 			}
 			// return newState;
-			return {...state, suggest: newSuggest}
+			return {...state, suggest: newFilters};
+		}
+
+		case "SET_RICE_SUGGEST": {
+			if(state.isRiceInside === action.payload.isRiceInside) {
+				return {...state, isRiceInside: null};
+			} else {
+				return {...state, isRiceInside: action.payload.isRiceInside};
+			}
 		}
 	}
-
-
 	return state;
 }

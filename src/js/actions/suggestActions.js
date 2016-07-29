@@ -1,8 +1,17 @@
-export function setSuggest(suggest) {
+export function setIngredientSuggest(filter) {
 	return {
-		type: "SET_SUGGEST",
+		type: "SET_INGREDIENT_SUGGEST",
 		payload: {
-			suggest: suggest
+			filter
+		}
+	}
+}
+
+export function setRiceSuggest(isRiceInside) {
+	return {
+		type: "SET_RICE_SUGGEST",
+		payload: {
+			isRiceInside
 		}
 	}
 }

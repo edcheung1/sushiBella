@@ -12,20 +12,24 @@ import MenuItem from "./MenuItem"
 })
 export default class MenuSection extends React.Component {
 	render() {
-		let filter = this.props.filter ? this.props.filter : [];
-		let isRiceInside = this.props.isRiceInside;
+		let filter = this.props.filter;
+		let isRiceInside = null;
 
+		if(this.props.isRiceInside) {
+			isRiceInside = this.props.isRiceInside === "inside" ? true : false;
+		}
+		
 		let filteredItems = this.props.items.filter((item) => {
 			for(var i=0; i<filter.length; i++) {
 				if(item.ingredients.indexOf(filter[i]) < 0) {
 					return false;
 				}
-
-				console.log(item.isRiceInside);
-				if(item.isRiceInside !== isRiceInside && item.isRiceInside !== null) {
-					return false;
-				}
 			}
+
+			if(item.isRiceInside !== isRiceInside && ('isRiceInside' in item) && isRiceInside !== null) {
+				return false;
+			}
+
 			return true;
 		})
 

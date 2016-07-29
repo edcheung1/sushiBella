@@ -5,119 +5,102 @@
 			"simpleName": "tuna",
 			"ingredients": ["tuna"],
 			"isRaw": true,
-			"isRiceInside": null,
 			"price": 5
 		}, {
 			"name": "Shiro Maguro 白鮪 (Albacore Tuna)",
 			"simpleName": "albacore",
 			"ingredients": ["tuna"],
 			"isRaw": true,
-			"isRiceInside": null,
 			"price": 4.5
 		}, {
 			"name": "Sake 鮭 (Salmon)",
 			"simpleName": "salmon",
 			"ingredients": ["salmon"],
 			"isRaw": true,
-			"isRiceInside": null,
 			"price": 4.5
 		}, {
 			"name": "Smoked Salmon スモーク・サーモン",
 			"simpleName": "smokedSalmon",
 			"ingredients": ["salmon"],
 			"isRaw": true,
-			"isRiceInside": null,
 			"price": 4.5
 		}, {
 			"name": "Hamachi はまち (Yellowtail)",
 			"simpleName": "yellowtail",
 			"ingredients": ["yellowtail"],
 			"isRaw": true,
-			"isRiceInside": null,
 			"price": 4.5
 		}, {
 			"name": "Unagi 鰻 (Eel)",
 			"simpleName": "eel",
 			"ingredients": ["eel"],
 			"isRaw": true,
-			"isRiceInside": null,
 			"price": 5
 		}, {
 			"name": "Ebi 海老 (Shrimp)",
 			"simpleName": "shrimp",
 			"ingredients": ["shrimp"],
 			"isRaw": true,
-			"isRiceInside": null,
 			"price": 4
 		}, {
 			"name": "Ama-ebi 甘海老 (Sweet Shrimp)",
 			"simpleName": "sweetShrimp",
 			"ingredients": ["shrimp"],
 			"isRaw": true,
-			"isRiceInside": null,
 			"price": 6
 		}, {
 			"name": "Tai 鯛 (Red Snapper)",
 			"simpleName": "snapper",
 			"ingredients": ["snapper"],
 			"isRaw": true,
-			"isRiceInside": null,
 			"price": 4.5
 		}, {
 			"name": "Kani 蟹 (Crab Stick)",
 			"simpleName": "crab",
 			"ingredients": ["crab"],
 			"isRaw": true,
-			"isRiceInside": null,
 			"price": 4
 		}, {
 			"name": "Masago まさご (Smelt Roe)",
 			"simpleName": "smeltRoe",
 			"ingredients": ["smelt roe"],
 			"isRaw": true,
-			"isRiceInside": null,
 			"price": 4.5
 		}, {
 			"name": "Saba 鯖 (Mackerel)",
 			"simpleName": "mackerel",
 			"ingredients": ["mackerel"],
 			"isRaw": true,
-			"isRiceInside": null,
 			"price": 4.5
 		}, {
 			"name": "Ikura イクラ (Salmon Roe)",
 			"simpleName": "salmonRoe",
 			"ingredients": ["salmon roe"],
 			"isRaw": true,
-			"isRiceInside": null,
 			"price": 6
 		}, {
 			"name": "Ika いか (Squid)",
 			"simpleName": "squid",
 			"ingredients": ["squid"],
 			"isRaw": true,
-			"isRiceInside": null,
 			"price": 4.5
 		}, {
 			"name": "Hotate 帆立 (Scallop)",
 			"simpleName": "scallop",
 			"ingredients": ["scallop"],
 			"isRaw": true,
-			"isRiceInside": null,
 			"price": 5
 		}, {
 			"name": "Tamago 卵 (Egg)",
 			"simpleName": "egg",
 			"ingredients": ["egg"],
 			"isRaw": true,
-			"isRiceInside": null,
 			"price": 3
 		}, {
 			"name": "Inari いなり (Sweet Tofu Pocket)",
 			"simpleName": "inari",
 			"ingredients": ["tofu"],
 			"isRaw": true,
-			"isRiceInside": null,
 			"price": 3
 		}
 	],
@@ -279,88 +262,104 @@
 			"name": "Philadelphia Roll",
 			"ingredients": ["smoked salmon", "cucumber", "cream cheese"],
 			"isRaw": true,
+			"isRiceInside": false,
 			"price": 7
 		}, {
 			"name": "Sunrise Roll",
 			"ingredients": ["tuna", "avocado", "cream cheese"],
 			"isRaw": true,
+			"isRiceInside": false,
 			"price": 7
 		}, {
 			"name": "Sunset Roll",
 			"ingredients": ["salmon", "avocado", "cream cheese"],
 			"isRaw": true,
+			"isRiceInside": false,
 			"price": 7
 		}, {
 			"name": "Samurai Roll",
 			"ingredients": ["salmon tempura", "eel", "avocado"],
 			"isRaw": true,
+			"isRiceInside": false,
 			"price": 8
 		}, {
 			"name": "Spider Roll",
 			"ingredients": ["soft shell crab", "avocado"],
 			"isRaw": true,
+			"isRiceInside": false,
 			"price": 9
 		}, {
 			"name": "Boston Roll",
 			"ingredients": ["tuna", "crab", "avocado", "smelt roe"],
 			"isRaw": true,
+			"isRiceInside": false,
 			"price": 8
 		}, {
 			"name": "Sea-Tac Roll",
 			"ingredients": ["tuna", "salmon", "snapper", "avocado", "smelt roe"],
 			"isRaw": true,
+			"isRiceInside": false,
 			"price": 9
 		}, {
 			"name": "Crunchy Roll",
 			"ingredients": ["shrimp tempura", "avocado", "smelt roe", "tempura crumbs"],
 			"isRaw": true,
+			"isRiceInside": false,
 			"price": 9
 		}, {
 			"name": "Futo Maki",
 			"ingredients": ["crab", "egg", "smelt roe", "pickled radish", "inari"],
 			"isRaw": true,
+			"isRiceInside": true,
 			"price": 10
 		}, {
 			"name": "Dragon Roll",
 			"ingredients": ["shrimp tempura", "eel", "avocado", "cucumber"],
 			"onTop": ["avocado"],
 			"isRaw": true,
+			"isRiceInside": false,
 			"price": 12
 		}, {
 			"name": "Red Dragon Roll",
 			"ingredients": ["crab", "avocado", "cucumber"],
 			"onTop": ["tuna"],
 			"isRaw": true,
+			"isRiceInside": false,
 			"price": 12
 		}, {
 			"name": "Black Dragon Roll",
 			"ingredients": ["crab", "avocado", "cucumber"],
 			"onTop": ["eel", "avocado"],
 			"isRaw": true,
+			"isRiceInside": false,
 			"price": 12
 		}, {
 			"name": "Rainbow Roll",
 			"ingredients": ["crab", "avocado", "cucumber"],
 			"onTop": ["tuna", "salmon", "snapper", "avocado"],
 			"isRaw": true,
+			"isRiceInside": false,
 			"price": 12
 		}, {
 			"name": "Alaska Roll",
 			"ingredients": ["crab", "avocado", "cucumber"],
 			"onTop": ["smoked salmon"],
 			"isRaw": true,
+			"isRiceInside": false,
 			"price": 12
 		}, {
 			"name": "Phoenix Roll",
 			"ingredients": ["soft shell crab", "eel"],
 			"onTop": ["avocado"],
 			"isRaw": true,
+			"isRiceInside": false,
 			"price": 12
 		}, {
 			"name": "Seattle Roll",
 			"ingredients": ["shrimp tempura"],
 			"onTop": ["spicy tuna"],
 			"isRaw": true,
+			"isRiceInside": false,
 			"price": 12
 		}
 	]

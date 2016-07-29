@@ -1,6 +1,7 @@
 import React from "react"
 
 import FilterButton from "./FilterButton"
+import RiceButton from "./RiceButton"
 
 export default class MenuFilters extends React.Component {
 
@@ -16,17 +17,24 @@ export default class MenuFilters extends React.Component {
 			);
 		});
 
+		let vertical = this.props.windowWidth >= 768 ? "-vertical" : "";
 
 		return (
 			<div class="row">
 				<h5>Protein</h5>
-					{protein}
+					<div class={"btn-group" + vertical} role="group">
+						{protein}
+					</div>
 				<br />
 				<h5>Veggies</h5>
-					{vegetables}
+					<div class={"btn-group" + vertical} role="group">
+						{vegetables}
+					</div>
 				<h5>Rice</h5>
-					<FilterButton type={this.props.type} rice={"inside"} />
-					<FilterButton type={this.props.type} rice={"outside"} />
+					<div class={"btn-group" + vertical} role="group">
+						<RiceButton type={this.props.type} rice={"inside"} />
+						<RiceButton type={this.props.type} rice={"outside"} />
+					</div>
 			</div>
 		);
 	}

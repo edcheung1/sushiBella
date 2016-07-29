@@ -1,47 +1,31 @@
 import React from "react"
+import { connect } from "react-redux"
 
 import { normalRolls, houseRolls, nigiriSushi } from "../../data/menuItems"
 import MenuSection from "../components/MenuSection"
 import MenuFilters from "../components/MenuFilters"
 
+@connect((store) => {
+	return {
+		windowWidth: store.windowWidth.windowWidth,
+	};
+})
 export default class Menu extends React.Component {
-	constructor() {
-		super();
-		this.state ={
-			windowWidth: window.innerWidth
-		}
-		this.handleResize = this.handleResize.bind(this);
-	}
-
-	componentDidMount() {
-		window.addEventListener('resize', this.handleResize);
-	}
-
-	componentWillUnmount() {
-		window.removeEventListener('resize', this.handleResize);
-	}
-
-	handleResize(event) {
-		this.setState({
-			windowWidth: window.innerWidth
-		})
-	}
-
 	render() {
 		return (
-			<div class="container" style={{"paddingBottom": "4em"}}>
+			<div>
 				<h1>Menu</h1>
-				<div class="row">
+				<div class="col-sm-3">
 					<h3>Ingredients</h3>
-					<MenuFilters type="filter"/>
+					<MenuFilters type="filter" windowWidth={this.props.windowWidth}/>
 				</div>
-				<div class="row" style={{"paddingRight": "4em"}}>
+				<div class="col-sm-9">
 					<h3>Nigiri Sushi</h3>
-						<MenuSection items={nigiriSushi} windowWidth={this.state.windowWidth}/>
+						<MenuSection items={nigiriSushi} windowWidth={this.props.windowWidth}/>
 					<h3>Sushi Rolls</h3>
-						<MenuSection items={normalRolls} windowWidth={this.state.windowWidth}/>
+						<MenuSection items={normalRolls} windowWidth={this.props.windowWidth}/>
 					<h3>House Rolls</h3>
-						<MenuSection items={houseRolls} windowWidth={this.state.windowWidth}/>
+						<MenuSection items={houseRolls} windowWidth={this.props.windowWidth}/>
 				</div>
 			</div>
 		);

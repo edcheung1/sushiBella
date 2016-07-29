@@ -1,8 +1,16 @@
-export function setFilter(filter, isRiceInside) {
+export function setIngredientFilter(filter) {
 	return {
-		type: "SET_FILTER",
+		type: "SET_INGREDIENT_FILTER",
 		payload: {
-			filter,
+			filter
+		}
+	}
+}
+
+export function setRiceFilter(isRiceInside) {
+	return {
+		type: "SET_RICE_FILTER",
+		payload: {
 			isRiceInside
 		}
 	}
