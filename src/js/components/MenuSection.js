@@ -14,7 +14,6 @@ export default class MenuSection extends React.Component {
 	render() {
 		let filter = this.props.filter ? this.props.filter : [];
 		let isRiceInside = this.props.isRiceInside;
-		console.log(isRiceInside);
 
 		let filteredItems = this.props.items.filter((item) => {
 			for(var i=0; i<filter.length; i++) {
