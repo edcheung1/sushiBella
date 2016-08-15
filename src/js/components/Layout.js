@@ -44,7 +44,7 @@ export default class Layout extends React.Component {
 				</Menu>
 
 				<main id="page-wrap">
-					<div class="container" style={{"padding": "0 2em 4em 0"}}>
+					<div class="container page">
 						{this.props.children}
 					</div>
 				</main>

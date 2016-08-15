@@ -19,7 +19,7 @@
 			"isRaw": true,
 			"price": 4.5
 		}, {
-			"name": "Smoked Salmon スモーク・サーモン",
+			"name": "Smoked Salmon スモークサーモン",
 			"simpleName": "smokedSalmon",
 			"ingredients": ["salmon"],
 			"isRaw": true,
